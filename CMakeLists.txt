@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 find_package(Curses REQUIRED)
 
 # Specify the executable target
-add_executable(sedit src/main.cpp src/buffer.cpp)
+add_executable(sedit src/main.cpp src/Buffer.cpp)
 
 # Link the NCurses library
 target_link_libraries(sedit ${CURSES_LIBRARIES})

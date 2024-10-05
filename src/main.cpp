@@ -1,5 +1,5 @@
 #include <ncurses.h>
-#include "buffer.hpp"
+#include "Buffer.hpp"
 
 int main() {
     initscr();            // Initialize NCurses
